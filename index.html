@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <ul class="active">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <h1>Hello, I'm Vishal Chauhan</h1>
+        <p>A passionate web developer.</p>
+      </section>
+
+      <section id="about">
+        <h2 style="color: rgb(0, 0, 0)">About Me</h2>
+        <div class="about-content">
+          <img
+            src="images\my_image.PNG"
+            alt="Profile Picture"
+            class="profile-pic"
+          />
+          <div class="bio">
+            <p>
+              Hello, I’m Vishal Chauhan and I work as a web developer. I have
+              been working as a web developer for quite some time now. I believe
+              I am a very ambitious person who loves to work on making the
+              website work well. Working on the web is my passion as I love to
+              work on exciting projects. This is the field I get to express my
+              creativity.
+            </p>
+            <h3>Skills</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2 style="color: rgb(0, 0, 0)">Projects</h2>
+        <div class="project-card">
+          <h3>Go Vacation (A Hotel Booking Web App):</h3>
+          <p>
+            An easy-to-use Hotel Booking Web App, where users can book hotels.
+            Also added the Admin panel to add hotels and manage the rating of
+            hotels. Tech Stack: ReactJS, ViteJS, NodeJS, ExpressJS, MongoDB,
+            Redux, JsonWebTokens,TailWind CSS.
+          </p>
+          <a href="#">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Go Social (A Social Media Platform):</h3>
+          <p>
+            Social Media Platform where users can create posts, like posts, and
+            follow their friends. Explored how to design full-stack web
+            applications. Tech Stack: ReactJS, ViteJS, NodeJS, ExpressJS,
+            MongoDB, Redux, BootStrap.
+          </p>
+          <a href="#">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>SAHAYAK | SmartIndiaHackathon (SIH):</h3>
+          <p>
+            Connecting especially able people with their need,expanding local
+            business, AR navigation, spreading awareness. Tech Stack: Machine
+            learning, Web Development, AR/VR, Firebase and API’s.
+          </p>
+          <a href="#">View Project</a>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2 style="color: rgb(0, 0, 0)">Send me a message</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Vishal Chauhan. All rights reserved.</p>
+      <p>
+        Follow me on <a href="https://x.com/ViShal_Chhn">Twitter</a>
+        <a href="https://www.linkedin.com/in/vishal-chauhan-b12b04157/"
+          >LinkedIn</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
