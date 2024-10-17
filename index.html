@@ -11,18 +11,24 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <header class="header">
-      <nav class="nav">
+    <header>
+      <nav class="navbar">
         <ul class="active">
+          <li><a class="home" href="#hero">Home</a></li>
+          <div class="nav-toggle">
           <li><a href="#about">About Me</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact">Follow</a></li>
+          <li><a href="#contact">Login</a></li>
+        </div>
         </ul>
+        <button id="hamburger-toggle" class="hamburger"><svg  xmlns="http://www.w3.org/2000/svg"  width="57"  height="57"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 6l16 0" /><path d="M4 12l16 0" /><path d="M4 18l16 0" /></svg></button>
       </nav>
     </header>
 
-    <main class="main">
-      <section class="hero">
+    <main>
+      <section class="hero" id="hero">
         <h1>Hello, I'm Vishal Chauhan</h1>
         <p>A passionate web developer.</p>
       </section>
@@ -87,7 +93,7 @@
         </div>
       </section>
 
-      <section id="contact">
+      <section id="contact" class="contact">
         <h2 style="color: rgb(0, 0, 0)">Send me a message</h2>
         <form>
           <label for="name">Name:</label>
@@ -113,5 +119,7 @@
         >
       </p>
     </footer>
+    <script> src="./app.js"</script>
   </body>
 </html>
+ 
